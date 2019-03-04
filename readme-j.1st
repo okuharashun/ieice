@@ -1,0 +1,60 @@
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+     電子情報通信学会英文誌 LaTeX2e クラスファイル（ieice.cls）
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+1. ieice.cls の現在のバージョンは
+      [2016/03/25 v2.2]
+   です．
+
+2. 以下のファイルがあります．
+     ieice.cls     クラスファイル
+     ieicetr.bst   文献用スタイルファイル
+     readme-e.1st  readme-j.1st の英語版
+     readme-e.pdf  クラスファイルの使い方（英文）（pdf）
+     readme-e.tex  クラスファイルの使い方（英文）
+     readme-j.1st  このファイル
+     readme-j.pdf  クラスファイルの使い方（和文）（pdf）
+     readme-j.tex  クラスファイルの使い方（和文）
+     template.tex  テンプレート
+
+   コンパイルに必要なファイルは，ieice.cls だけです．
+   readme-j.tex または readme-e.tex がこのクラスファイルを使用した場合の
+   出力サンプルとなります．論文作成の雛形として template.tex が
+   利用できます．
+
+   ieicetr.bst は松本隆太郎さんが作成されたものです．
+   松本さんにご厚意により配布ファイルに同梱することができました．
+
+3. ieice.cls は pLaTeX2e を元に作成しました．
+
+4. 作成にあたっては，
+     e-upTeX, Version 3.14159265-p3.6-u1.20-141210-2.6 (utf8.uptex)
+       (TeX Live 2015) 
+     pLaTeX2e <2011/05/07u00>+0 (based on LaTeX2e <2015/01/01> patch level 2)
+   および
+     pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015)
+     LaTeX2e <2015/01/01> patch level 2
+   で動作確認しました．
+
+5. 本クラスファイルでは TX フォント（newtxtext+newtxmath）を使用します．
+   TX フォントのインストールの詳細は，奥村晴彦さんの「日本語 TeX 情報」
+     http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?TXFonts
+   が参考になります．
+   amsmath パッケージを利用するときは，amsmath の後で読み込みます．
+   \usepackage[fleqn]{amsmath}
+   \usepackage{newtxtext}
+   \usepackage[varg]{newtxmath}
+
+6. A4用紙に出力する場合，dvips をお使いの場合は，
+     dvips -Pprintername -t a4 -O 0mm,8mm file.dvi
+  くらいの設定になります（printername はお使いのプリンタ名です）．
+
+7. 本クラスファイルに関わる質問はメールでお願いいたします．
+   TeX や LaTeX の一般的な質問はご容赦願います．
+   web または書籍などを参照してください．
+
+                                                          2016年 3月25日
+
+                                                     (株)ウルス 佐藤基昭
+                         E-mail: teppei@uls.co.jp, http://www.uls.co.jp/
+                      〒113-0033 東京都文京区本郷 3-21-10 浅沼第2ビル7階
